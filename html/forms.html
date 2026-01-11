@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <!-- Username 
+        <input />  -->
+        <div>
+          <label for="username"> Username:</label>
+          <input type="text" placeholder="Enter username" id="username"/>
+        </div> <br>
+         <div>
+          <label for="password">password:</label>
+          <input type="Password" placeholder=" Enter password " id="password"/>
+         </div> <br>
+        <!-- Number  -->
+         <div>
+          <label for="number"> Enter number:</label>
+          <input type="number"placeholder="Enter mobile no." id="number"/>
+         </div><br>
+        <!-- Email -->
+         <div>
+          <label for="email"> Enter Your email:</label>
+          <input type="email" placeholder="Enter Email id" id="email"/>
+         </div>
+         <br> 
+
+         <!--  button element / type attribute  -->
+        
+        <button> Submit </button>  
+        <button type="submit"> Submit </button>
+        <button type="button">b1 </button>
+        <button type="reset"> reset </button>
+        <br> <br>
+        <input type="button" value="Submit"/>
+        <input type="submit" value="Submit"/>
+        <input type="reset" Value="reset"/> 
+        
+
+    </form> <hr>
+
+      <form action="https://www.google.com/search">
+          <input type="text" placeholder="Search here on google " name="q">
+          <button> Search </button> <br>
+      </form><br>
+
+      <form action="https://www.youtube.com/results">
+          <input type="text" placeholder="Search here on youtube " name="search_query">
+          <button> Search </button> <br>
+      </form> <br>
+      <form action="https://www.flipkart.com/search">
+          <input type="text" placeholder="Search here on flipkart " name="q">
+          <button> Search </button> <br><br>
+
+      </form>
+      <form action="/server">
+        <lable for="age"> I am 18+ </lable>
+        <input type="checkbox" id="age" name="age"/><br><br>
+        
+
+         Radio Button<br>
+        <label for="fruit"> Fruits: </label><br>
+        <input type="radio" id=fruit name="fruit" value="apple"/> Apple
+        <input type="radio" id=fruit name="fruit" value="banana"/> Banana
+        <input type="radio" id=fruit name="fruit" value="orange "/> Orange <br><br>
+
+        OR<br>
+        <div>
+          <input type="radio" name="fruit" id="apple" value="apple">
+          <label for="apple"> Apple </label>
+          <input type="radio" name="fruit" id="Mango" value="Mango">
+          <label for="Mango"> Mango </label>
+          <input type="radio" name="fruit" id="Banana" value="Banana">
+          <label for="Banana"> Banana </label>
+        </div><br>
+        
+        Choose your Profession:
+        <select name="Profession">
+          <option>Select Your option</option>
+          <option value="Stu"> Student</option>
+          <option value="Dev" selected > Developer </option>
+        </select><br>
+
+        Range Input Element:<br>
+        <label for="vol"> Select your Volume level :</label>
+        <input type="range" min="0" max="100" id="vol" name="vol" step="5" value="10"/><br>
+
+        <div>
+          <label for="vol"> Select a Range </label>
+          <input type="range" id="vol" name="vol" min="0" max="150" step="10" />
+        </div>
+
+        <button> Submit </button> <br><br>
+
+    
+      </form>
+
+</body>
+</html>
