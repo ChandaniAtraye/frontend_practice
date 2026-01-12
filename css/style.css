@@ -1,0 +1,52 @@
+/* h2{
+    color:orange;
+}
+
+p{
+    color:white;
+    background-color: black;
+}
+
+button{
+    color:white;
+    background-color: blue;
+}
+ */
+
+ /* h1{
+    color:blue;
+ }
+
+ h2{
+    color:rgb(0,0,255);
+    
+ }
+
+ h3{
+    color:#0000ff;
+ } */
+
+
+ /* MANDIR INFO. */
+
+ h1{
+    text-align:center;
+    color:maroon;
+ }
+
+ h2{
+   /* text-decoration: underline; */
+   text-decoration:  double underline;
+ }
+ h3{
+   /* text-decoration: red overline; */
+   text-decoration: double blue overline;
+
+ }
+
+ p{
+    text-decoration:solid black overline ;
+ }
+
+
+       
