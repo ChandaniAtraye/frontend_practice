@@ -1,0 +1,28 @@
+body{
+    background-color:wheat;
+    text-align:center;
+    font-family:georgia;
+}
+.poem{
+    color:brown;
+    line-height:30px;
+
+
+}
+.poem_name{
+    color:red;
+}
+.poet_name{
+    color:black;
+}
+a{
+    color:rgb(48, 137, 48);
+    text-transform:none;
+}
+button{
+    background-color:white;
+    color:black;
+}
+span{
+    text-decoration:underline;
+}
