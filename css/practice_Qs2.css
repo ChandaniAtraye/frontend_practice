@@ -48,5 +48,15 @@ input[type="password"] {
     color:red;
 }
 input[type] {
-    background-color:aliceblue;
+    background-color:rgb(240, 255, 244);
+}
+
+
+/* Pseudo class */
+button:hover{
+    background-color:black;
+    color:white;
+}
+button:active{
+    background-color:hotpink;
 }

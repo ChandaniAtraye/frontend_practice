@@ -1,0 +1,52 @@
+
+h1{
+    color:brown;
+}
+
+/* Pseudo class */
+button:hover{
+    background-color:black;
+    color:white;
+}
+
+/* active pseudo class */
+button:active{
+    background-color:hotpink;
+}
+
+/* checked pseudo class */
+input [type="radio"]:checked + label{
+    color:red;
+    font-weight:bold;
+
+}
+
+/* nth-of-type-  */
+
+div:nth-of-type(2n){
+    background-color:blueviolet
+    
+}
+
+
+/* pseudo elements-1.first-letter */
+h1::first-letter{
+    color: hotpink;
+}
+
+/* 2.first-line  */
+.para::first-line{
+    color:blue;
+
+}
+
+/* 3. selection */
+p::selection{
+    background-color:rgb(196, 167, 74);
+}
+
+/* !important - to show the most specific thing in document */
+h2{
+   background-color: aliceblue !important;
+   color:brown;
+}
