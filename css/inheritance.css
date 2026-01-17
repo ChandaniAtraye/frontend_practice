@@ -1,0 +1,14 @@
+/* inheritance in css */
+
+div{
+   background-color:yellow;
+ }
+
+ form{
+   background-color:red;
+ }
+
+ /* input and buttons doesn't inherite properties from parent if want to inherite then we can give specific proprty to it */
+ input{
+    background-color:inherit;
+ }
