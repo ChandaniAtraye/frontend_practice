@@ -13,7 +13,8 @@ h1,h3{
     color:aliceblue;
 }
 
-/*  descendant selector ---> is used to select elements that are inside another element,no matter how deep they are nested. */
+/*  descendant selector ---> is used to select elements that are 
+inside another element,no matter how deep they are nested. */
 .post a{
     color:purple;
     background-color:yellow;
@@ -24,8 +25,8 @@ nav ul li a{
     color:hotpink;
 }
 
-/* Adjacent sibling combinator --> is used to select an element that is immediately next to (right after) another element,at the same level(same parent) */
-
+/* Adjacent sibling combinator --> is used to select an element that is immediately next
+ to (right after) another element,at the same level(same parent) */
 p + h3{
     text-decoration:underline;
 }
@@ -35,7 +36,6 @@ p + h3{
 }
 
 /* child combinator --> direct descendant --> only one level we go  or select the elemnt  */
-
 div>input{
     background-color:rgb(72, 187, 147);
 }

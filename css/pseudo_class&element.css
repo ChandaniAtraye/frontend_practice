@@ -2,7 +2,8 @@
 h1{
     color:brown;
 }
-
+/* pseudo class & element are used to style elements
+based on their state or specific parts of an elements */
 /* Pseudo class */
 button:hover{
     background-color:black;
