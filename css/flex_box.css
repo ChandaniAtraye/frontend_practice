@@ -1,0 +1,69 @@
+.flex_item1{
+    background-color: rgb(116, 5, 116);
+}
+.flex_item2{
+    background-color: indigo;
+}
+.flex_item3{
+    background-color: blue;
+}
+.flex_item4{
+    background-color: green;
+}
+.flex_item5{
+    background-color: yellow;
+}
+.flex_item6{
+    background-color: orange;
+}
+.flex_item7{
+    background-color: red;
+}
+
+#container{
+    height:300px;
+    width:80%;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex;
+
+    /* FLEXBOX DIRECTION  */
+    /* flex-direction:row; */
+    /* flex-direction:row-reverse; */
+    /* flex-direction:column; */
+    /* flex-direction:column-reverse; */
+    flex-direction:row;
+    
+
+    /* JUSTIFY CONTENT  */
+    /* 1.to show content , left to right  */
+    /* justify-content:flex-start; */
+
+    /* 2. to show content from right end  */
+    /* justify-content:flex-end; */
+
+    /* 3.to show the content in center */
+    /* justify-content:center; */
+
+    /* 4.to show the space in middle */
+    /* justify-content:space-between; */
+
+    /* 5.to show the space around */
+    /* justify-content:space-around; */
+
+    /* 6.to show the space evenly */
+    justify-content:space-evenly;
+
+
+
+
+}
+
+
+
+#container div{
+    height:100px;
+    width:100px;
+    text-align:center;
+    color:white;
+}
