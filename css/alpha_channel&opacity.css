@@ -1,0 +1,29 @@
+
+/* alpha channel - sets the opacity for the color */
+/* div{
+    height:200px;
+    width:200px;
+    background-color:rgba(255,0,0,0.2);
+} */
+
+
+/* opacity - sets the opacity for the element 
+#box1{
+    background-color:aquamarine;
+    opacity:0.6
+} */
+
+/* TRANSITION IN CSS */
+div{
+    height:200px;
+    width:200px;
+    background-color:green;
+    margin:0 auto;
+    margin-top:10px;
+    transition:margin-top 2s ease-in 0.2s;
+}
+
+div:hover{
+    margin-top:400px;
+    background-color: pink;
+}
