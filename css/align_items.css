@@ -1,0 +1,75 @@
+.flex_item1{
+    background-color: rgb(116, 5, 116);
+    height:100px;
+}
+.flex_item2{
+    background-color: indigo;
+    height:100px;
+}
+.flex_item3{
+    background-color: blue;
+    height:100px;
+}
+.flex_item4{
+    background-color: green;
+    height:100px;
+}
+.flex_item5{
+    background-color: yellow;
+    height:100px;
+}
+.flex_item6{
+    background-color: orange;
+    height:100px;
+    
+}
+.flex_item7{
+    background-color: red;
+    height:100px;
+}
+
+#container{
+    height:600px;
+    width:80%;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    /* flex-wrap:wrap; */
+    /* align-items:flex-start; */
+     /* align-items:flex-end; */
+      /* align-items:center; */
+
+      /* content will be in same line  */
+      /* align-items:baseline; */
+
+      /* ALIGN-CONTENT - row */
+      /* align-content:center; */
+        align-content:flex-start;
+        /* align-content:flex-end; */
+        /* align-content:space-around; */
+        /* align-content:space-between; */
+        /* align-content:space-evenly; */
+
+        /* align-content-column */
+        /* align-content:center; */
+        /* align-content:flex-start; */
+        /* align-content:flex-end; */
+        /* align-content:space-around; */
+        /* align-content:space-between; */
+        /* align-content:space-evenly; */
+}
+
+#org{
+    /* align-self:flex-end; */
+    align-self:center;
+}
+
+#container div{
+    height:100px;
+    width:300px;
+    text-align:center;
+    color:white;
+    
+}
