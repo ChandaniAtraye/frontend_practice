@@ -28,15 +28,18 @@
     display:flex;
 
     /* FLEXBOX DIRECTION  */
+    /* left to right */
     /* flex-direction:row; */
+
+    /* content reverse */
     /* flex-direction:row-reverse; */
     /* flex-direction:column; */
     /* flex-direction:column-reverse; */
-    flex-direction:row;
-    
+    /* flex-direction:row;
+     */
 
     /* JUSTIFY CONTENT  */
-    /* 1.to show content , left to right  */
+    /* 1.to show content , left end   */
     /* justify-content:flex-start; */
 
     /* 2. to show content from right end  */
@@ -52,10 +55,30 @@
     /* justify-content:space-around; */
 
     /* 6.to show the space evenly */
-    justify-content:space-evenly;
+    /* justify-content:space-evenly; */
 
 
 
+    /* FLEX-WRAP */
+      /*1. flex-wrap:nowrap; */
+    /* 2.flex-wrap:wrap; */
+    /* 3. flex-wrap:wrap-reverse; */
+
+
+     /* flex-direction:row;
+    justify-content:flex-start;
+    flex-wrap:wrap; */
+
+
+    
+    /* flex-direction:row;
+    justify-content:flex-start;
+    flex-wrap:wrap-reverse; */
+
+    /* column reverse */
+      flex-direction:column-reverse;
+    justify-content:flex-start;
+    flex-wrap:wrap-reverse;
 
 }
 
@@ -63,7 +86,7 @@
 
 #container div{
     height:100px;
-    width:100px;
+    width:300px;
     text-align:center;
     color:white;
 }
