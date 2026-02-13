@@ -32,4 +32,23 @@ if(age>=18){
   }else if(marks<33){
     console.log("F");
   }
+
+
+  //3.Nested if-else
+  // nesting is writing if-else inside if-else statements.it can have many levels.
+
+  let mark = 40;
+  if(mark>=33){
+    console.log("pass");
+    if(mark>=80){
+      console.log("Grade : O");
+    }else{
+      console.log("Grade : A");
+    }
+  }else{
+    console.log("better luck next time");
+  }
+
+
+
   
