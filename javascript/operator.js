@@ -24,5 +24,9 @@ console.log(x==y); // comapres value not type
 console.log(x===y);// compares both value and type
 
 
-// 
-// 
+// logical operators
+let marks = 23;
+if((marks>33 && marks <=80)|| !false){
+    console.log("pass"); // pass
+}
+
