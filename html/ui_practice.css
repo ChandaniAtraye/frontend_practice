@@ -1,3 +1,4 @@
+
 .block1{
     height:100px;
     width:100px;
@@ -5,9 +6,42 @@
     text-align:center;
     margin:auto;
    padding:10px;
+   margin-top:20px;
    border-radius:5px;
    display:flex;
    justify-content:center;
-   justify-self: center;
+   align-items:center;
+   transition:all 2s ease-out;
 
 }
+.block1:hover{
+    transform:translateX(30px);
+}
+
+.block2{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    border-radius:50%;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+.block3{
+    height:100px;
+    width:100px;
+    background-color:greenyellow;
+    border-radius:50%; 
+    margin:auto; 
+    margin-top:10px;
+    padding:10px;   
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+
