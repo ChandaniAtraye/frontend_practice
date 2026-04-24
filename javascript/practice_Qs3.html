@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Question </title>
+</head>
+<body>
+    <script>
+        //1. Create a number variable num with some value. Now,print “good” if the number is divisible by 10 and print “bad” if it is not
+        let num = 20;
+        if(num % 10 == 0 ){
+            console.log("Good");
+        }else{
+            console.log("bad");
+        }
+    </script>
+
+    <script>
+        //2. Take the user's name & age as input using prompts.Then return back the following statement to the user as an alert(by substituting their name & age):name is age years old.
+        // let name = prompt("enter your name");
+        // let age = prompt("enter your age");
+       
+        // alert(`${name} is ${age} years old.`);
+
+    </script>
+
+    <script>
+        //3. switch statements
+        let quarter = 4;
+        switch(quarter){
+            case 1 :
+                console.log("Months in quarter 1 : January, Feb,march");
+                break;
+            case 2 :
+                console.log("Months in quarter 1 : April, May,June");
+                break;
+            case 3 :
+                console.log("Months in quarter 1 : July, Aug,Sep");
+                break;
+            case 4 :
+                console.log("Months in quarter 1 : Oct, Nov,Dec");
+                break;
+
+            default :
+            console.log("Enter the correct Quarter")
+
+        }
+    </script>
+
+    <script>
+        //4.A string is a golden string if it starts with the character‘A’or‘a’and has a total length greater than 5
+        // For a given string print if it is golden or not
+        let word = "apples";
+        if( (word[0]=="A"||"a")&&(word.length > 5 )){
+            console.log("Golden word");
+        }else{
+            console.log("it is not golden word");
+        }
+
+    </script>
+    <script>
+        //5. write a program to find the largest of 3 numbers .
+        let a = 123;
+        let b = 345;
+        let c = 643;
+        if(a>b){
+            if(a>c){
+                console.log(a," is largest number");
+            } else{
+                console.log(c," is largest number");
+            }
+        }else{
+            if(b>c){
+                console.log(b," is largest number");
+            }else{
+                console.log(c," is largest number");
+            }
+        }
+    
+    </script>
+    <script>
+        //6.Write a program to check if 2 numbers have the same last digit.Eg:32 and 47852 have the same last digit i.e.2 
+
+        let num1 = 32;
+        let num2 = 47852;
+        if((num1 % 10) == (num2 % 10)){
+            console.log("Numbers have same last digit which is ",num1%10);
+        }else{
+            console.log("numbers dont have same last digit");
+        }
+    </script>
+</body>
+</html>

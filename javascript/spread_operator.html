@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // using rest operator
+        function sumRest(name,...args) ///rest operator while declaring function
+        {
+            document.write(`Hello my name is ${name} :`);
+
+            let sum = 0;
+            for(let i in args){
+                sum += args[i];
+            }
+            document.write(sum + "<br>");
+        }
+        var arr = [20,30,50];
+        sumRest("CA",...arr);  //spread operator while function call
+        
+    </script>
+</body>
+</html>

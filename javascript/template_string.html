@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        var name = "Ganesh";
+        var address = "Nashik";
+        document.write("Hello my name is " + name +','+ " My address is "+ address + " Welcome to 2026"); // old way
+        document.write(`Hello my name is ${name}, my address is ${address}, welcome to 2026`); // Using template string - ES6 feature
+
+        let all2 = `Hello my name is ${name},
+         my address is ${address}, 
+         welcome to 2026`;
+        console.log(all2);
+    </script> -->
+    <script>
+        let fname = "Anand";
+        let lname = "Ogale";
+        //function defination
+        function fullName(fname,lname){
+            return `${fname} ${lname}`;
+        } 
+
+        //function call inside template literal
+        let fulllName = `Hello my full name is ${fullName(fname,lname)}`;
+        
+        //print with Hello msg
+        // document.write(fulllName);
+
+        //print full name 
+        document.write(fullName(fname,lname));
+    </script>
+</body>
+</html>

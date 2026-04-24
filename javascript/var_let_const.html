@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var Example 
+        var fname = "Cani"; // Global Scope
+        var fname = "ABC"; //redeclare allow
+        fname = "Avni"; // reassign allow
+        console.log(fname);
+
+        // let example
+        let lname = "Deshmukh"; // 
+        // let lname = "ogale"; // redeclare not allowed
+        lname = "bawne"; // reassign allowed 
+        console.log(lname);
+
+        //const example
+
+        const cname = "TCS";
+        // const cname = "Cognizant"; //redeclare not allowed
+        // cname = "FCT"; // reassign not allowed 
+        console.log(cname);
+
+        //scope example
+        if(10==10){ // true
+            var y = "Hello";
+            let x = "How are u";
+            const z = " good "
+            console.log(z); // block scope or functional scope
+        }
+        console.log(y); // global scope 
+    </script>
+
+</body>
+</html>
