@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string methods</title>
+</head>
+<body>
+    <script>
+        // 1.str.trim(): removes extra spaces from both the end.
+        let str = "   Hello   ";
+        console.log(str.trim());
+        console.log(str); // origin string remains same
+    </script>
+    <script>
+        // 2.toLowerCase string method: 
+
+        let msg = "WELCOME TO PUNE";
+        console.log(msg.toLowerCase());
+
+        // . toUpperCase string mtd.
+
+        let name = "Chandani Atraye";
+        console.log(name.toUpperCase());
+
+    </script>
+    <script>
+        //3. string method with arguments.
+        // arguments is a some value that we pass to the method.
+        // returns the first index of occurrence of some value in string or gives -1 if not found.
+        let word = "ILoveCoding";
+        console.log(word.indexOf("Love")); // 1
+        console.log(word.indexOf("o")); // 2
+        console.log(word.indexOf("q")); // o/p = -1 => if value not found 
+        
+    </script>
+    <script>
+        //4. method chaining : using one method after another . order of execution will be left to right.
+        let msg1 = "  hello   ";
+        // let newmsg1 = msg1.trim();
+        // console.log("after trim :",newmsg1);
+        // newmsg1 = newmsg1.toUpperCase();
+        // console.log("after uppercase:",newmsg1);
+        //or 
+        let newmsg1 = msg1.trim().toUpperCase();
+        console.log(newmsg1);
+    </script>
+   <script>
+    //5. slice : returns a part of the original string as a new string.
+    let message = "Hello";
+    console.log(message.slice(2));
+    console.log(message.slice(1,5)); // first index and last index + 1 = (4+1)
+    console.log(message.slice(length-2));
+
+   </script>
+   <script>
+    //6. replace : searches a value in the string & returns a new string with the value replaced.
+    let sentence = "ILoveCoding";
+    console.log(sentence.replace("Love","Do"));
+    console.log(sentence.replace("o","y"));
+   </script>
+   <script>
+    //7. repeat : returns a string with the number of copies of a string 
+    let fruit="Mango";
+    console.log(fruit.repeat(6));
+   </script>
+</body>
+</html>
