@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array methods</title>
+</head>
+<body>
+   <script>
+    //push,pop
+    let cars =["audi","maruti","xuv","bmw"];
+    cars.push("toyota"); // add to end
+    console.log(cars);
+    cars.pop();  // delete from end and return list
+    console.log(cars);
+
+    //unshift,shift
+    let fruits= ["Apple","Banana","Oranges"];
+    fruits.unshift("Mango"); // add to start
+    console.log(fruits);
+
+    fruits.shift(); // delete from start and return list
+    console.log(fruits);
+
+    
+   </script> 
+   <script>
+    // example 
+    let months = ["January","July","March","August"];
+    months.shift();
+    months.shift();
+    console.log(months);
+    months.unshift("june");
+    months.unshift("July");
+    console.log(months);
+
+   </script>
+
+   <script>
+    // indexOf method 
+    let primary = ["red","yellow","blue"];
+    console.log(primary.indexOf("blue")); // o/p = 2
+    console.log(primary.indexOf("pink")); // o/p=-1 not found in array
+    console.log(primary.indexOf("Yellow")); // y & Y different -- o/p = -1
+
+    //includes method - search for a value
+
+    console.log(primary.includes("red")); // found ==> true
+    console.log(primary.includes("Yellow")); // not found => false
+    console.log(primary.includes("Blue")); // should be same value if not it will return false
+
+   </script>
+   <script>
+    // concat method - merge two arrays (origin array remain same)
+    let color1 = ["red","yellow","blue"];
+    let color2 = ["orange","violet","green"];
+    let allcolors=color1.concat(color2);
+    console.log(allcolors);
+    console.log(color2.concat(color1));
+
+    // reverse method - reverse an array (origin array changes to reverse)
+    console.log(color1.reverse());
+   </script>
+
+   <script>
+    // slice method - copies a portion of an array
+    let colors =["red","yellow","blue","orange","violet","green"];
+    console.log(colors.slice());
+    console.log(colors.slice(2));
+    console.log(colors.slice(2,3));
+    console.log(colors.slice(-2));
+   </script>
+   <script>
+    // splice method -
+   </script>
+</body>
+</html>
