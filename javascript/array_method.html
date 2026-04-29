@@ -69,9 +69,28 @@
     console.log(colors.slice(2));
     console.log(colors.slice(2,3));
     console.log(colors.slice(-2));
+
+    
    </script>
    <script>
-    // splice method -
+    // splice method - removes /replace /add elements in place
+    //splice(start,deleteCount ,item0...itemN).
+    let car_brands =["audi","maruti","xuv","bmw","nexon"];
+    console.log(car_brands.splice(3)); // like a slice but this made changes in original array 
+    console.log(car_brands);
+    console.log(car_brands.splice(0,1)); // start from 0 index and delete the first value i.e audi
+    console.log(car_brands); //o/p maruti and xuv
+    car_brands.push("wagon","aura","suzuki");
+    console.log(car_brands);
+    console.log(car_brands.splice(1,2)); // o/p maruti ,aura ,suzuki
+    console.log(car_brands);
+    console.log(car_brands.splice(0,0,"toyota","harihar","gvagon"));
+    console.log(car_brands);
+    console.log(car_brands.splice(1,0,"mercedes"));
+    console.log(car_brands);
+    console.log(car_brands.splice(1,1,"hundai"));
+    console.log(car_brands);
+
    </script>
 </body>
 </html>
