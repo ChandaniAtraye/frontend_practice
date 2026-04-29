@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice_Qs</title>
+</head>
+<body>
+    <script>
+        //Qs1.
+        let months =["january","july","march","august"];
+        
+        // console.log(months.splice(0,1));
+        // console.log(months); //o/p - july,march,august
+        // console.log(months.splice(1,0,"june")); 
+        // console.log(months); // o/p july,june,march,august 
+
+        //OR
+        months.splice(0,2,"july","june");
+        console.log(months);
+
+    </script>
+    <script>
+        //Qs2. return index of javascript ,if it was reversed.
+        let language =["c","c++","html","javascript","python","java","c#","sql"];
+        console.log(language.reverse().indexOf("javascript"));
+
+    </script>
+</body>
+</html>

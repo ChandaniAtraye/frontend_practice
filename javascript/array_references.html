@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array_references</title>
+</head>
+<body>
+    <script>
+        //Array References - address in memory
+        // "name" =="name" & "name" === "name" - it gives 'true'
+        // but [1]==[1] & [1] === [1] - it gives 'false'
+        //because array compared by reference,not by value in javascript
+        let arr = ['a','b','c'];
+        let arrCopy = arr;
+        console.log(arr);
+        console.log(arrCopy);
+        arr.push('d');
+        console.log(arrCopy);
+        arrCopy.pop();
+        console.log(arr);
+        console.log(arrCopy);
+        console.log(arr==arrCopy);
+        console.log(arr===arrCopy);
+
+    </script>
+</body>
+</html>
