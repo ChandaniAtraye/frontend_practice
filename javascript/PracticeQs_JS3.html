@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js3 Qs</title>
+</head>
+<body>
+  <script>
+    //Qs1.Write a JavaScript program to get the first n elements of an array.[n can be any positive number].
+    let array =[7,9,0,-2];
+    n=3;
+    let newarray = array.slice(0,n);
+    console.log(newarray);
+    
+  </script>
+  <script>
+    let array2 =[7,9,0,-2];
+    n=3;
+    let newarray2 = array2.slice(array2.length-n); 
+    console.log(newarray2);
+
+  </script>
+  <script>
+    // WriteaJavaScriptprogramtocheckwhetherastringisblankornot
+    let str = prompt("please enter a string");
+    if(str.length==0){
+        console.log("string is empty");
+    }else{
+        console.log("string is not empty");
+    }
+  </script>
+  <script>
+    // WriteaJavaScriptprogramtotestwhetherthecharacteratthegiven(character)indexislowercase
+    let strname ="helloWElCoMe";
+    let idx =5;
+    if(strname[idx] ==  strname[idx].toLowerCase()){
+        console.log("the case of character is lowercase");
+    }else{
+        console.log("the case of character is not lowercase");
+    }
+  </script>
+  <script>
+    // WriteaJavaScriptprogramtostripleadingandtrailingspacesfromastring
+    let name = "    Chandani Atraye    "
+    console.log(`original name : ${name}`);
+    console.log(`without space : ${name.trim()}`);
+  </script>
+  <script>
+    // WriteaJavaScriptprogramtocheckifanelementexistsinanarrayornot
+    let fruits =["Apple","Banana","Orange","Lichi","Peach","Pear"];
+    let item = "Apple";
+    if(fruits.indexOf(item) != -1){
+        console.log("element is exist in array");
+    }else{
+        console.log("element doesn't exist in array");
+    }
+  </script>
+</body>
+</html>
