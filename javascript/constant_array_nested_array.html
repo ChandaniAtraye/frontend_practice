@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>constant and nested array</title>
+</head>
+<body>
+    <script> 
+    // constant array - assignemnt to const array is possible
+        const arr = [1,2,3];
+        arr.push(4,5); // can add values and remove values but cant change references/address -- cant change arr address to new address
+        arr.pop();
+
+        console.log(arr);
+    </script>
+
+    <script>
+        //nested array - array of arrays 
+        let nums =[[2,4],[3,6],[4,8]];
+        console.log(nums);
+        console.log(nums.length); // 3
+        console.log(nums[0]);
+        console.log(nums[0].length);
+        console.log(nums[0][0]);  // 2 - individual value access -- 0 index array par 0 index value 
+        console.log(nums[2][1]); // 8
+    </script>
+    <script>
+        // Qs of nested array - create a nested array to show the following tic-tac-toe game state.
+        let game = [['X',null,'O'],[null,'X','O'],['O',null,'X']];
+        console.log(game);
+        game[0][1]='O'; //value change 
+        console.log(game);
+    </script>
+</body>
+</html>
