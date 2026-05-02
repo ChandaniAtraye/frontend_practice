@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>favorite_movie</title>
+</head>
+<body>
+    <script>
+        // favorite movie name guessing code.using loop
+        let fav_movie = "Ham sath sath hai";
+        let guess = prompt("Guess my favorite movie");
+        while((guess!=fav_movie)&&(guess!="quit")){
+            guess=prompt("wrong,please try again or write quit to quit");
+        }
+        if(guess==fav_movie){
+            console.log("Congrats!! you guessed it ");
+        }else{
+            console.log("you quit")
+        }
+      
+    </script>
+</body>
+</html>
