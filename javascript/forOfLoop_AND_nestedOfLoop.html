@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forOfLoop_AND_nestedForOfLoop</title>
+</head>
+<body>
+    <script>
+        // for of loop - it returns value directly
+        //syntax
+        //  for(element of collection){}
+        //         (do something)}
+
+
+        let fruits=["apple","banana","lichi","oranges","mango"];
+        for(fruit of fruits){
+            console.log(fruit);
+        }
+
+
+        // for of loop on character
+
+        for(char of "ChandaniAtraye"){
+            console.log(char);
+        }
+
+
+    </script>
+
+    <script>
+        //nested for of loop - means using for of loop inside for of loop inside another for of loop.
+        //it is useful when working with 2D arrays(arrya inside arrays) or grouped data
+
+        let heroes =[["ironman","spiderman","thor"],["superman","wonder woman","flash"]];
+        for(list of heroes){
+            for(hero of list){
+                console.log(hero);
+            }
+        }
+    </script>
+</body>
+</html>
