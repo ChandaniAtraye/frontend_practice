@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //object of object
+        // storing information of multiple students
+        const classInfo = {
+            aman: {
+                grade: "A",
+                city: "Delhi"
+            },
+            shardha: {
+                grade: "A",
+                city: "Delhi"
+            },
+            om: {
+                grade: "A+",
+                city: "Pune"
+            }
+        } ;
+        console.log(classInfo);
+         console.log(classInfo.om);
+         classInfo.shardha.city ="Gurgoan"
+         console.log(classInfo.shardha.city);
+        
+    </script>
+
+    <script>
+        //Array of objects
+        // storing information of multiple students
+        const classInformation = [
+            {
+                name:"Aman",
+                grade:"A+",
+                city:"Delhi"
+            },
+            {
+                name:"suman",
+                grade:"B",
+                city:"Mumbai"
+            },
+            {
+                name:"raman",
+                grade:"C",
+                city:"Pune"
+            }
+        ];
+        console.log(classInformation);
+        console.log(classInformation[1]); // using index no.
+        console.log(classInformation[1].name);
+        classInformation[1].gender ="Female"; // added a property
+        console.log(classInformation[1]);
+    </script>
+</body>
+
+</html>

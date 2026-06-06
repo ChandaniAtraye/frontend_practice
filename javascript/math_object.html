@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Math object
+        console.log(Math.PI); // 3,14
+        console.log(Math.E); // 2.71
+        console.log(Math.abs(2.3)); // absolute
+        console.log(Math.pow(2,3)); // power (a**b)
+        console.log(Math.floor(2.3)); //num round off (less than or equal to )
+        console.log(Math.ceil(2.3)); // larger intergere value round off 
+        console.log(Math.random()); // random number- bet- 0 to 1 
+    </script>
+    
+
+    <script>
+        // random integer generate from 1 to 10
+        let num = Math.random();  // generate number from 0 to 1 but not 1
+       
+        let num1 = num *10
+         let num2 = Math.floor(num1);
+         let num3 = num2 + 1 ;
+         console.log(num3); 
+
+
+         // in one mtd
+         let number = Math.floor(Math.random() * 10) + 1;  // genrater number from 1 to 10
+         console.log(number);
+
+    </script>
+    <script>
+        // Example1. generate a random number between 1 and 100 
+        let number1 = Math.floor(Math.random() * 100) + 1;
+        console.log(number1);
+        let number2 = Math.floor(Math.random() * 5) + 1;
+        console.log(number2);
+        let number3 = Math.floor(Math.random() * 5) + 20;  // number from 20 to 24
+        console.log(number3);
+    </script>
+</body>
+</html>
