@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    //Scope - scope determines the accessibility of variables, objects and functions from diffrent parts of the code
+    // Function - Variables defined inside a function are not accessible (visible) from outside the function
+    // Block - vaiables declared inside a {} block cannot be accessed from outside the block
+    // Lexical- (nested function)-a variable defined outside a function can be accessible inside another function defined after the variable declaration.
+    // Global - variables can be accessible anywhere in the code
+
+
+    //function scope- 
+    function calSum(a,b){
+        let sum = a+b; // function scope
+        console.log(sum);
+    }
+    calSum(1,6);
+
+
+    //block scope-
+    // {
+    //     let a =25;
+    //     console.log(a);
+    // }
+
+
+    let age =18;
+    if(age>=18){
+        let str ="adult";
+        console.log(str);
+
+    }
+
+
+
+    //Lexical Scope
+
+    
+    
+
+
+   </script> 
+</body>
+</html>

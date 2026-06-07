@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // return - return keyword is used to return some value from the function 
+        // Input --> Function(does some work) --> output
+
+        function sum(a,b){
+            return a+b;
+        }
+       console.log( sum(1,2));
+
+
+
+       function sum1(a,b){
+        return a+b;
+       }
+
+       let s = sum(sum(2,3),3);
+
+       console.log(s);
+
+
+
+
+       // another function
+       function isAdult(age){
+        if(age>=18){
+            return "Adult";
+        }else{
+            return "Not adult" ;
+        }
+
+       }
+
+       console.log(isAdult(19));
+
+
+    </script>
+    <script>
+        // create a function that returns the sum of numbers from 1 to n.
+        function sumNumber(n){
+            let sum = 0;
+            for(let i=1;i<=n; i++){
+                sum=sum+i;
+            }
+            return sum;
+        }
+       console.log(sumNumber(10)) ;
+
+
+
+       // create a function that returns the concatenation of all strings in an array
+
+        let str =["Hi","Hello","bye","!"];
+        function concat(str){
+            let result ="";
+            for(let i=0; i<str.length;i++){
+                result += str[i];
+
+            }
+            return result;
+        }
+        console.log(concat(str));
+    </script>
+</body>
+</html>
